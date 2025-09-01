@@ -1,4 +1,5 @@
-<?php
-use App\Http\Controllers\Api\BrandController;
+use App\Http\Controllers\Api\PhoneController;
 
-Route::get('/brands', [BrandController::class, 'index']);
+// ... other routes
+
+Route::get('/phones', [PhoneController::class, 'index']);
